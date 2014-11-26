@@ -13,6 +13,7 @@
     "valid-media-queries": "0.0.2"
   },
   "devDependencies": {
+    "browserify": "^6.3.3",
     "jest-cli": "^0.1.15"
   },
   "scripts": {
@@ -36,6 +37,8 @@
     "url": "https://github.com/chenglou/RCSS/issues"
   },
   "jest": {
-    "unmockedModulePathPatterns": ["./node_modules/*"]
+    "unmockedModulePathPatterns": [
+      "./node_modules/*"
+    ]
   }
 }
